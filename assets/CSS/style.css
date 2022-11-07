@@ -1,0 +1,253 @@
+body {
+	background-color: black;
+	margin: 0;
+	padding-top: 80px;
+	font-family: 'Commissioner', sans-serif;
+	font color: white;
+	max-width: 100vw;
+	box-sizing: border-box;
+	overflow-x: hidden !important;
+}
+
+*, *::after, *::before {
+	box-sizing: inherit;
+}
+header{
+	background: white; 
+	background-size: cover;
+	margin:100px;
+	padding:100px;
+	text-align: center;
+	font color: white;
+}
+
+nav {
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	font color:white;
+	top: 0;
+}
+nav a {
+	color: black;
+	text-decoration:none;
+}
+
+nav a.active{
+	background-color: black;
+	color: white;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li {
+	margin: 10px;
+}
+.caja { 
+	font-family: 'Commissioner', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+	background: white;
+	margin: 100px;
+	overflow: hidden;
+	padding: 20px;
+	text-align: left;
+}
+
+.nombredi {
+	background: white; 
+	background-size: cover;
+	margin:100px;
+	padding:100px;
+	text-align: center;
+	font color: white;
+}
+
+.caja2 {
+	font-family: 'Commissioner', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+	background: white;
+	margin: 100px;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+}
+
+.caja3 {
+	font-family: 'Commissioner', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: black;
+	background: white;
+	margin: 100px;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.caja5 {
+	color: black;
+	background: white;
+	margin: 100px;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+}
+
+.caja5 img{
+	width: 800px;
+	max-width: 70%;
+}
+.proycontracontainer{
+	display: flex;
+}
+
+.proycontra{
+	color: black;
+	background: white;
+	padding: 20px;
+	text-align: left;
+	margin: 40px;
+}
+
+.imgproycontra img{
+	display: block;
+	width: 50%;
+	margin: 100px auto;
+}
+
+.equipo {
+	font-family: 'Commissioner', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	margin: 100px;
+	margin-top: 25px;
+	overflow: hidden;
+	text-align: left;
+}
+
+.museos {
+	font-family: 'Commissioner', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	margin: 100px;
+	margin-top: 25px;
+	overflow: hidden;
+	text-align: left;
+}
+
+.museocontainer{
+	display: flex;
+	margin: 100px;
+	flex-direction: column;
+}
+
+.museocontainer img{
+	width: 400px;
+	max-width: 80%;
+	margin: 100px;
+}
+
+.dimoda, .voma{
+	color: black;
+	text-align: left;
+	background-color: white;
+	padding: 40px;
+}
+
+
+
+.authorbox, .otherauthors{
+	color: black;
+	background: white;
+	text-align: center;
+	padding: 40px;
+}
+
+.circle{
+	border-radius: 50%;
+}
+
+.authorbox{
+	margin: 40px;
+	width: 100%;
+}
+
+.authorbox img{
+	width: 200px;
+	max-width: 90%;
+}
+
+.otherauthors {
+	max-width: 100%;
+	margin: 40px;
+}
+
+.otherauthors img{
+	width: 150px;
+	max-width: 80%;
+}
+.authorscontainer {
+	display:flex;
+	justify-content: flex-start;
+
+}
+
+.otherauthorscontainer {
+	display:flex;
+	justify-content: space-between;
+}
+
+
+.vincu, .actuales, .conclusion {
+	color: black;
+	background: white;
+	margin: 100px;
+	padding: 30px;
+	text-align: left;
+
+}
+
+
+.vincutextimg{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.vincutextimg img{
+	width: 50%;
+	height: auto;
+}
+
+.actuales img, .conclusion img{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
